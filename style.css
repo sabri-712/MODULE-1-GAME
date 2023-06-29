@@ -1,0 +1,40 @@
+::before, ::after{
+    box-sizing: border-box;
+    
+}
+
+body{
+    /* border: solid 3px red; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6LJsmJd47wxJabSI8AKIP0xEI8TOp0-hwJg&usqp=CAU)
+}
+.textbox-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin: 25px;
+}
+.textbox{
+    background-color: darkolivegreen;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+    margin-left: 220px;
+    box-shadow: 0 0 11px 5px;
+    padding: 150px;
+    box-shadow: 0 0 10px 2px;
+    border-radius: 7px;
+}
+.introBox{
+    /* background-color: aliceblue; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: navy;
+    font-size: larger;
+    text-shadow: 1px;
+}
+.startBtn, .option{
+    font-weight: bolder;
+    background-color: coral;
+    border-radius: 5px;
+}
+
+
