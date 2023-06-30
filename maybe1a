@@ -9,11 +9,19 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="textbox"> 
-            <a href="intro.html"><button class="startBtn" onclick="">START GAME</button> </a>
-            <!-- <button class="option">Option A</button>
-            <button class="option">Option B</button> -->
+
+<div class="textbox"> 
+    <a href="index.html"><button class="ResetGame">Reset Game</button></a> 
+    <div class="storyBox">
+
+        </div> 
+            <a href=""><button class="option"></button> </a>
+            
+            <a href=""><button class="option"></button> </a>
+            
         </div>
+        
+        
         <audio controls loop autoplay> <source src="Faultlines - Asher Fulero.mp3" type="audio/mpeg"> </audio>
         <script src="script.js" async defer></script>
     </body>

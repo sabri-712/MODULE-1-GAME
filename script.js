@@ -1,15 +1,12 @@
 // quiz style game, pick your own adventure//
 // start game function
-const startGame =()=>{
-    console.log('Started')
-    startButton.classList.remove('hide')
-    textboxContainerElement.classList.remove('hide')
-    setNextQuestion()
-}    
-const startButton = document.getElementsByClassName('startBtn')
-const textboxElement = document.getElementsByClassName('textbox')
+// const startGame =()=>{
+//     console.log('Started')
+// }    
+// const startButton = document.getElementsByClassName('startBtn').innerHTML = ""
+// const textboxElement = document.getElementsByClassName('textbox')
 
-startButton.addEventListener('click', startGame)
+// startButton.addEventListener('click', startGame())
 
 
 // const startGame =()=>{
@@ -22,13 +19,13 @@ startButton.addEventListener('click', startGame)
 // two options function
 
 // If reader picks option A, go down path a function
-const setNextQuestion=()=> {
+// const setNextQuestion=()=> {
 
-}
+// }
 
 // IF reader picks option B, go down path b function
 
-const intro = document.getElementsByClassName('introBox')
+// const intro = document.getElementsByClassName('introBox')
 
 
 
